@@ -1,0 +1,29 @@
+# Ideen zur Lösung Lernaufgabe 1.2_THofmann
+
+## Vorbereitung
+
+- eine Ordnerstruktur zurechtlegen
+- als Starter template die Vorlage von bootstrap verwenden, bzw. vom vorherigen Projekt. 
+- Die Verlinkung zum Stylesheet und JS herstellen im Skript und testen
+
+## Die Grundstruktur des BMI-Rechners nach Vorlage Mockup nachbauen
+
+- Ein neues Formular mit method und action starten
+- mit verschachtelten Containern die Eingabefelder nachbauen
+- nach dem Aufbau testen ob das Abschicken des Formulars funktioniert ( Seiteninspektor )
+
+## Clientseitige Validierung
+
+- Die Bedingungen der einzelnen Felder programmieren
+- Für das Datum wieder ein JS einbinden mit Funktion
+
+## Serverseitige Validierung
+
+- Mit Hilfe einer Bedingung im Skript die Eingaben auf Ihre Richtigkeit prüfen
+- Methoden zur Prüfung auslagern in eine eigene PHP-Datei und diese dann mit required einbinden
+- mit einem Error-Array die Ergebisse der Valiederung an der Seite anzeigen lassen
+
+## Testen
+
+- testen ob das Übermiteln der Daten funktioniert und ob die Validierungen die gewünschten Fehler anzeigen
+
